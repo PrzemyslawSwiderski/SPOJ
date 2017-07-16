@@ -30,3 +30,5 @@
 
 # VSCODE
 .VSCODE
+.idea/
+CMakeLists.txt
