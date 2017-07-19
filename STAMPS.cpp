@@ -16,16 +16,17 @@ int main()
         for(i=0;i<ppl;i++)
              cin>>arr[i];
         sort(arr,arr+ppl);
-        int sum=0;
+        int sum=0,elemCount=0;
         for(i=ppl-1;i>=0;i--)
         {
+			elemCount++;
             sum+=arr[i];
             if(sum>=tar)
                 break;
         }
         cout<<"Scenario #"<<l++<<":\n";
         if(sum>=tar)
-            cout<<i<<"\n";
+            cout<<elemCount<<"\n";
         else
             cout<<"impossible\n";
     }
