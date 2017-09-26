@@ -9,7 +9,7 @@ int main() {
 	int n;
 	cin>>n;
 	while(n) {
-		int i=0;
+		long long i=0;
 		cin>>i;
 		unsigned long long qube=192+(i-1)*250;
 		cout<<qube<<endl;
